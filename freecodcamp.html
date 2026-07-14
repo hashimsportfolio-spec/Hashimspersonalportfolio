@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>freeCodeCamp Certificate - Muhammad Idris Hashim</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .certificate-wrapper {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .certificate-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .certificate-image:hover {
+            transform: scale(1.02);
+        }
+
+        .certificate-download {
+            margin-top: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -49,10 +90,13 @@
             </div>
 
             <div class="certificate-image-section">
-                <h2>Certificate Image</h2>
+                <h2>Official Certificate</h2>
                 <p>Below is my official freeCodeCamp certification:</p>
-                <div class="certificate-display">
-                    <img src="certificate.jpg" alt="freeCodeCamp Legacy Responsive Web Design V8 Certificate" class="certificate-img">
+                <div class="certificate-wrapper">
+                    <img src="certificate.jpg" alt="freeCodeCamp Legacy Responsive Web Design V8 Developer Certificate" class="certificate-image">
+                    <div class="certificate-download">
+                        <a href="certificate.jpg" download="Muhammad_Idris_Hashim_freeCodeCamp_Certificate.jpg" class="download-btn">Download Certificate</a>
+                    </div>
                 </div>
             </div>
 
@@ -129,8 +173,8 @@
             </div>
 
             <div class="certificate-view">
-                <h2>View My Certificate</h2>
-                <p>You can verify my certificate and see all the details by visiting:</p>
+                <h2>Verify My Certificate</h2>
+                <p>You can verify my certificate and see all the details by visiting the official freeCodeCamp certification link:</p>
                 <a href="https://freecodecamp.org/certification/muhammad_hashim/responsive-web-design" target="_blank" class="btn">View My Certificate on freeCodeCamp</a>
             </div>
         </div>
